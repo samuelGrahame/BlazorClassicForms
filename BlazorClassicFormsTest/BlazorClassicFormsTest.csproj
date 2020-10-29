@@ -20,6 +20,13 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Remove="docs\**" />
+    <Content Remove="docs\**" />
+    <EmbeddedResource Remove="docs\**" />
+    <None Remove="docs\**" />
+  </ItemGroup>
+
+  <ItemGroup>
     <Compile Include="..\BlazorClassicFormsTest.UI\frmDockingTest.cs" Link="UI\frmDockingTest.cs" />
     <Compile Include="..\BlazorClassicFormsTest.UI\frmDockingTest.Designer.cs" Link="UI\frmDockingTest.Designer.cs" />
     <Compile Include="..\BlazorClassicFormsTest.UI\frmMain.cs" Link="UI\frmMain.cs" />
@@ -38,7 +45,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="docs\" />
     <Folder Include="UI\" />
   </ItemGroup>
 
