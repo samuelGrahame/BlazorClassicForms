@@ -1,0 +1,5 @@
+﻿<linker>
+  <assembly fullname="BlazorClassicFormsTest">
+    <type fullname="*" required="true" />
+  </assembly>
+</linker>

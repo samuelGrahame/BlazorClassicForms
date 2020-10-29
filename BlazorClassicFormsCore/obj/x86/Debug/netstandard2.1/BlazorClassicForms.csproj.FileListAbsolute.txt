@@ -1,0 +1,9 @@
+C:\Users\Samuel\Source\Repos\BlazorClassicForms\BlazorClassicFormsCore\bin\x86\Debug\netstandard2.1\BlazorClassicForms.deps.json
+C:\Users\Samuel\Source\Repos\BlazorClassicForms\BlazorClassicFormsCore\bin\x86\Debug\netstandard2.1\BlazorClassicForms.dll
+C:\Users\Samuel\Source\Repos\BlazorClassicForms\BlazorClassicFormsCore\bin\x86\Debug\netstandard2.1\BlazorClassicForms.pdb
+C:\Users\Samuel\Source\Repos\BlazorClassicForms\BlazorClassicFormsCore\obj\x86\Debug\netstandard2.1\BlazorClassicForms.csprojAssemblyReference.cache
+C:\Users\Samuel\Source\Repos\BlazorClassicForms\BlazorClassicFormsCore\obj\x86\Debug\netstandard2.1\BlazorClassicForms.AssemblyInfoInputs.cache
+C:\Users\Samuel\Source\Repos\BlazorClassicForms\BlazorClassicFormsCore\obj\x86\Debug\netstandard2.1\BlazorClassicForms.AssemblyInfo.cs
+C:\Users\Samuel\Source\Repos\BlazorClassicForms\BlazorClassicFormsCore\obj\x86\Debug\netstandard2.1\BlazorClassicForms.csproj.CoreCompileInputs.cache
+C:\Users\Samuel\Source\Repos\BlazorClassicForms\BlazorClassicFormsCore\obj\x86\Debug\netstandard2.1\BlazorClassicForms.dll
+C:\Users\Samuel\Source\Repos\BlazorClassicForms\BlazorClassicFormsCore\obj\x86\Debug\netstandard2.1\BlazorClassicForms.pdb
