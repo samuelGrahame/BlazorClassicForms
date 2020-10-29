@@ -19,7 +19,28 @@ namespace BlazorClassicFormsTest.UI
 
         private void button1_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("This is a test");
+            if(string.IsNullOrWhiteSpace(txtUsername.Text))
+            {
+                MessageBox.Show("Please enter in a username!");
+                txtUsername.Focus();
+                return;
+            }
+
+
+            if (string.IsNullOrWhiteSpace(txtPassword.Text))
+            {
+                MessageBox.Show("Please enter in a password!");
+                txtPassword.Focus();
+                return;
+            }
+
+            MessageBox.Show("No Server Access!");
+        }
+
+        private void frmMain_Load(object sender, EventArgs e)
+        {
+            txtPassword.Element.setAttribute("placeholder", "password");
+            txtUsername.Element.setAttribute("placeholder", "username");
         }
     }
 }
