@@ -39,8 +39,10 @@ namespace BlazorClassicFormsTest.UI
 
         private void frmMain_Load(object sender, EventArgs e)
         {
+#if BLAZOR
             txtPassword.Element.setAttribute("placeholder", "password");
             txtUsername.Element.setAttribute("placeholder", "username");
+#endif
         }
 
         private void button1_Click_1(object sender, EventArgs e)
