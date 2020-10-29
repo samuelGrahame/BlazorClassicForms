@@ -42,5 +42,11 @@ namespace BlazorClassicFormsTest.UI
             txtPassword.Element.setAttribute("placeholder", "password");
             txtUsername.Element.setAttribute("placeholder", "username");
         }
+
+        private void button1_Click_1(object sender, EventArgs e)
+        {
+            var x = new frmDockingTest();
+            x.Show();
+        }
     }
 }
