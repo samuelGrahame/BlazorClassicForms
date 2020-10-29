@@ -35,6 +35,8 @@
 #*.sqlproj   merge=binary
 #*.wwaproj   merge=binary
 
+* binary
+
 ###############################################################################
 # behavior for image files
 #
