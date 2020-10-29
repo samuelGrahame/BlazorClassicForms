@@ -1,0 +1,11 @@
+﻿@page "/"
+@inject IJSRuntime IJSRuntime;
+
+@{ 
+    BlazorClassicForms.HTML.dom.Setup(IJSRuntime as IJSInProcessRuntime);
+
+    var x = new System.Windows.Forms.Form();
+    x.WindowState = System.Windows.Forms.FormWindowState.Maximized;
+    x.Text = "This is a test";
+    x.Show();
+}
