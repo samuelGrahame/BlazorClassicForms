@@ -1,7 +1,7 @@
 {
   "FilesToCompress": [
     {
-      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\3tn2Qtjwp_D1TbhSKc5Bha3xEdcUqnUZh4VkB_K6Kz4=.hash",
+      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\y3v2LtoJidSnjHvPQj83SVW8pIVM7KwgyAzsBPMzjOQ=.hash",
       "Source": "C:\\Users\\Samuel\\Source\\Repos\\BlazorClassicForms\\BlazorClassicFormsTest\\obj\\Debug\\netstandard2.1\\blazor\\unlinked\\BlazorClassicFormsTest.dll",
       "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/_bin\/BlazorClassicFormsTest.dll.br"
     },
@@ -261,17 +261,17 @@
       "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/_bin\/Microsoft.JSInterop.WebAssembly.dll.br"
     },
     {
-      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\E1BKc30wYM2S6sO5300oK2_pLhcqe40RofZN1yqxjI8=.hash",
+      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\Ee_DR70Isa9KiEqyxiNKSjAYLPJDIXimVwgYmiwyokI=.hash",
       "Source": "C:\\Users\\Samuel\\Source\\Repos\\BlazorClassicForms\\BlazorClassicFormsTest\\obj\\Debug\\netstandard2.1\\blazor\\unlinked\\BlazorClassicForms.dll",
       "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/_bin\/BlazorClassicForms.dll.br"
     },
     {
-      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\PyBA9RBtUYKf15kbfeSJ16eoaK8pQ0l1I-orhpfXL9w=.hash",
+      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\mMqPpTg1y995VU-ZmZvGJK1Z3QuapLFIb1oQcFKmuYk=.hash",
       "Source": "C:\\Users\\Samuel\\Source\\Repos\\BlazorClassicForms\\BlazorClassicFormsTest\\obj\\Debug\\netstandard2.1\\blazor\\unlinked\\BlazorClassicFormsTest.pdb",
       "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/_bin\/BlazorClassicFormsTest.pdb.br"
     },
     {
-      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\MP5PnQsEl2GzSklvujB0jBKlOSNSYirEGlNrrQfOXjQ=.hash",
+      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\5-eWYQ-oHYXrqwrtQNzGAr3ZNMT8alukJnppWoUXr5I=.hash",
       "Source": "C:\\Users\\Samuel\\Source\\Repos\\BlazorClassicForms\\BlazorClassicFormsTest\\obj\\Debug\\netstandard2.1\\blazor\\unlinked\\BlazorClassicForms.pdb",
       "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/_bin\/BlazorClassicForms.pdb.br"
     },
@@ -296,7 +296,7 @@
       "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/blazor.webassembly.js.br"
     },
     {
-      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\kgxMBSAT-OM6FI6DK-EZnYDJhFjhK_nmABYBnCeWxqU=.hash",
+      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\kn7lpNIPQEsBWnCFWUyp7evUYqtWHPCNa5-8UJko5UQ=.hash",
       "Source": "C:\\Users\\Samuel\\Source\\Repos\\BlazorClassicForms\\BlazorClassicFormsTest\\obj\\Debug\\netstandard2.1\\blazor\\blazor.boot.json",
       "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/blazor.boot.json.br"
     }

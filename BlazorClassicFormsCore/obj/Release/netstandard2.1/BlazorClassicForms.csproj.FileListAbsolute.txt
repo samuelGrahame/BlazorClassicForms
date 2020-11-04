@@ -1,4 +1,3 @@
-C:\Users\Samuel\Source\Repos\BlazorClassicForms\BlazorClassicFormsCore\obj\Release\netstandard2.1\BlazorClassicForms.csprojAssemblyReference.cache
 C:\Users\Samuel\Source\Repos\BlazorClassicForms\BlazorClassicFormsCore\obj\Release\netstandard2.1\BlazorClassicForms.AssemblyInfoInputs.cache
 C:\Users\Samuel\Source\Repos\BlazorClassicForms\BlazorClassicFormsCore\obj\Release\netstandard2.1\BlazorClassicForms.AssemblyInfo.cs
 C:\Users\Samuel\Source\Repos\BlazorClassicForms\BlazorClassicFormsCore\obj\Release\netstandard2.1\BlazorClassicForms.csproj.CoreCompileInputs.cache

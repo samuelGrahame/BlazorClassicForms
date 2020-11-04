@@ -23,8 +23,8 @@ namespace System.Windows.Forms
         protected HTMLSpanElement HeadingTitle;
 
         public MenuStrip MainMenuStrip { get; set; }
+        public event EventHandler FormClosed;
 
-        
 
         ///// <summary>
         ///// mainAssembly -> Executing Assembly
@@ -35,7 +35,7 @@ namespace System.Windows.Forms
         ///// <returns></returns>
         //public static async Task LoadResourcesAsync(Assembly mainAssembly, Action<ComponentResourceManager> assignMainResourceReader)
         //{
-            
+
 
         //    /*@ 
         //     var func1 = function makeRequest(method, url) {
@@ -87,7 +87,7 @@ namespace System.Windows.Forms
         //                ComponentResourceManager componentResourceManager = null;
         //                dynamic container = null;
 
-                        
+
         //                if(assignMainResourceReader2 != null)
         //                {
         //                    componentResourceManager = new ComponentResourceManager();
@@ -119,7 +119,7 @@ namespace System.Windows.Forms
 
         //                    resourceReader.Data.Add(name, obj);
         //                }
-   
+
         //                ComponentResourceManager.resourceCache.Add(item, resourceReader);
 
         //                if (assignMainResourceReader2 != null)
@@ -142,14 +142,14 @@ namespace System.Windows.Forms
         //    }
 
         //    var types = mainAssembly.GetTypes().Where(o => o.BaseType == typeof(Form));
-            
+
         //    if(types != null)
         //    {
         //        var fItem = types.FirstOrDefault();
         //        var taskList = new List<Task<bool>>();
         //        var name = $"{fItem.Namespace}.Properties";
         //        taskList.Add(DownloadByType(mainAssembly.GetType(name), $"{name}.Resources", assignMainResourceReader));
-                                
+
         //        foreach (var item in types)
         //        {
         //            taskList.Add(DownloadByType(item, $"{item.Namespace}.{item.Name}"));
@@ -642,6 +642,11 @@ namespace System.Windows.Forms
                 }
             }
 
+
+            // call event....
+            
+            FormClosed?.Invoke(this, EventArgs.Empty);
+
             OnFormClosed();
 
             OnClosed();
@@ -703,7 +708,7 @@ namespace System.Windows.Forms
         private static List<Form> _minimizedForms = new List<Form>();
         protected virtual void OnFormClosed()
         {
-
+            //FormClosed
         }
 
         protected virtual void OnClosed()
@@ -822,8 +827,10 @@ namespace System.Windows.Forms
 
         private void _showForm()
         {
-            dom.document.body.appendChild(this.Element);   
-            if(StartPosition == FormStartPosition.CenterScreen)
+            dom.document.body.appendChild(this.Element);
+            Element.style.display = null;
+
+            if (StartPosition == FormStartPosition.CenterScreen)
             {                
                 this.Location = new Point((int)((dom.window.innerWidth * 0.5d) - (this.Size.Width * 0.5d)), (int)((dom.window.innerHeight * 0.5d) - (this.Size.Height * 0.5d)));
             }
@@ -1076,6 +1083,8 @@ namespace System.Windows.Forms
         {            
             Element.setAttribute("scope", "form");
             Element.style.overflow = "visible";
+
+            Element.style.display = "hidden";
 
             var formBase = new HTMLDivElement();
             var dummyControl = new Control(formBase, false);           

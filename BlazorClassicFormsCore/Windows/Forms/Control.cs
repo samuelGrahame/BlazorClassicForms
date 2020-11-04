@@ -780,7 +780,7 @@ namespace System.Windows.Forms
             return null;
         }
 
-        public event EventHandler Load;        
+        public event EventHandler Load;                
 
         protected virtual void OnMouseUp(MouseEventArgs e)
         {

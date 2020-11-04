@@ -364,8 +364,8 @@ C:\Users\Samuel\Source\Repos\BlazorClassicForms\BlazorClassicFormsTest\obj\Debug
 C:\Users\Samuel\Source\Repos\BlazorClassicForms\BlazorClassicFormsTest\obj\Debug\netstandard2.1\staticwebassets\BlazorClassicFormsTest.StaticWebAssets.xml
 C:\Users\Samuel\Source\Repos\BlazorClassicForms\BlazorClassicFormsTest\obj\Debug\netstandard2.1\BlazorClassicFormsTest.dll
 C:\Users\Samuel\Source\Repos\BlazorClassicForms\BlazorClassicFormsTest\obj\Debug\netstandard2.1\BlazorClassicFormsTest.pdb
-C:\Users\Samuel\Source\Repos\BlazorClassicForms\BlazorClassicFormsTest\obj\Debug\netstandard2.1\integrity\E1BKc30wYM2S6sO5300oK2_pLhcqe40RofZN1yqxjI8=.hash
-C:\Users\Samuel\Source\Repos\BlazorClassicForms\BlazorClassicFormsTest\obj\Debug\netstandard2.1\integrity\MP5PnQsEl2GzSklvujB0jBKlOSNSYirEGlNrrQfOXjQ=.hash
-C:\Users\Samuel\Source\Repos\BlazorClassicForms\BlazorClassicFormsTest\obj\Debug\netstandard2.1\integrity\3tn2Qtjwp_D1TbhSKc5Bha3xEdcUqnUZh4VkB_K6Kz4=.hash
-C:\Users\Samuel\Source\Repos\BlazorClassicForms\BlazorClassicFormsTest\obj\Debug\netstandard2.1\integrity\PyBA9RBtUYKf15kbfeSJ16eoaK8pQ0l1I-orhpfXL9w=.hash
-C:\Users\Samuel\Source\Repos\BlazorClassicForms\BlazorClassicFormsTest\obj\Debug\netstandard2.1\integrity\kgxMBSAT-OM6FI6DK-EZnYDJhFjhK_nmABYBnCeWxqU=.hash
+C:\Users\Samuel\Source\Repos\BlazorClassicForms\BlazorClassicFormsTest\obj\Debug\netstandard2.1\integrity\y3v2LtoJidSnjHvPQj83SVW8pIVM7KwgyAzsBPMzjOQ=.hash
+C:\Users\Samuel\Source\Repos\BlazorClassicForms\BlazorClassicFormsTest\obj\Debug\netstandard2.1\integrity\Ee_DR70Isa9KiEqyxiNKSjAYLPJDIXimVwgYmiwyokI=.hash
+C:\Users\Samuel\Source\Repos\BlazorClassicForms\BlazorClassicFormsTest\obj\Debug\netstandard2.1\integrity\mMqPpTg1y995VU-ZmZvGJK1Z3QuapLFIb1oQcFKmuYk=.hash
+C:\Users\Samuel\Source\Repos\BlazorClassicForms\BlazorClassicFormsTest\obj\Debug\netstandard2.1\integrity\5-eWYQ-oHYXrqwrtQNzGAr3ZNMT8alukJnppWoUXr5I=.hash
+C:\Users\Samuel\Source\Repos\BlazorClassicForms\BlazorClassicFormsTest\obj\Debug\netstandard2.1\integrity\kn7lpNIPQEsBWnCFWUyp7evUYqtWHPCNa5-8UJko5UQ=.hash
